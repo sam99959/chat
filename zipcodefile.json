@@ -1,0 +1,20 @@
+// Assume the user submits ZIP code "90003"
+const userEnteredZip = "90003";
+
+// Lookup the city in the JSON data
+const californiaZipcodes = {
+  "90001": "Los Angeles",
+  "90002": "Los Angeles",
+  "90003": "Los Angeles",
+  // ... more ZIP codes and cities
+  "94158": "San Francisco",
+  "94159": "San Francisco"
+};
+
+const cityForEnteredZip = californiaZipcodes[userEnteredZip];
+
+if (cityForEnteredZip) {
+  console.log(`The city for ZIP code ${userEnteredZip} is ${cityForEnteredZip}.`);
+} else {
+  console.log(`ZIP code ${userEnteredZip} not found in our records.`);
+}
