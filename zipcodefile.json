@@ -1,7 +1,5 @@
-// Assume the user submits ZIP code "90003"
 const userEnteredZip = "90003";
 
-// Lookup the city in the JSON data
 const californiaZipcodes = {
   "90001": "Los Angeles",
   "90002": "Los Angeles",
