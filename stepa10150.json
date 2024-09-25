@@ -1,3 +1,7 @@
 {
-  "message": "thank you for providing ZIP code. So you want to install in Bang Bon."
+  "messages": [
+    {
+      "text": "Hello, this is a text message!"
+    }
+  ]
 }
